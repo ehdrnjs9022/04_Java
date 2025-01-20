@@ -15,6 +15,17 @@ public class Test1 {
 		
 		System.out.println("이클립스 실행 중");
 		System.out.println("월요일 싫다");
+	
+		/* Java API DOC : Java에서 제공해주는 코드의 사용법이 설명되어있는 문서
+		 * 
+		 * DOC 확인 방법
+		 * 1) google -> java 21 api 검색
+		 * 
+		 * 2) 궁금한 코드 클릭 -> shift + f2
+		 */
+		
+		
+		
 		
 	}
 
