@@ -16,9 +16,9 @@ public class LoopPracticeRun {
 		//LP.practice5();
 		//LP.practice6();
 		//LP.practice7();
-		//LP.practice7();
+		LP.practice8();
 		//LP.practice7();
 		//LP.practice11();
-		LP.practice16();
+		//LP.practice16();
 	}
 }

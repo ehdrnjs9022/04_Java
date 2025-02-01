@@ -108,11 +108,29 @@ public class LoopPractice {
 	 public void practice7(){
 		 System.out.print("정수 입력 :");
 		 int num = sc.nextInt();
-	
 		 
-		 
-			 
+		 for(int i=1; i<=num; i++){
+			 for(int j=1; j<=i; j++) {
+				 System.out.print("*");
+			 }
+			System.out.println();
+			}
 		 }
+		 
+	 //---------------------------------------------------------
+	 public void practice8(){
+		 System.out.print("정수 입력 :");
+		 int num = sc.nextInt();
+		 
+		 for(int i=1; i<=num; i++) {
+			 for(int j=num; j>=i; j--)
+			 System.out.print("*");
+			 System.out.println();
+		 }
+		
+	 }
+		 
+		 
 		 
 	 public void practice11() {
 		 System.out.print("정수 입력 :");
