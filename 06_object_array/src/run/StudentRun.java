@@ -9,8 +9,13 @@ public class StudentRun {
 	public static void main(String[] args) {
 		
 		
-		//객체를 1회용으로 사용하는 방법;
-		new StudentView().mainMenu(); // ->객체임
+		//객체를 1회용으로 사용하는 방법 
+		// 생성자
+		/* - 객체가 생성될때 수행할 명령어를 작성한 특수한 메서드
+		*/
+		
+		new StudentView().mainMenu(); // ->객체를 만든다 메인메뉴 매서드 실행 ->View로
+		
 		// 새로운 StudentView 객체가 생성 되자마자
 		//mainMenu() 메서드 호출
 		
