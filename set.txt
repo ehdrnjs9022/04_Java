@@ -1,0 +1,28 @@
+set000 설정하다
+000set 집합
+Object.hashCode()
+-> 주소를 이용해서 만들어진 숫자 반환
+*어떻게 오버라이딩?
+-> 식별번호(같은 객체는 같은 정수를 가짐)
+
+null : 참조하는 객체가 없다
+
+비어있다 : 참조하는 객체는 있는데 저장된 데이터가 없다
+
+""(빈칸) : 작성된 내용이 없는 문자열
+
+undefinde(js) : 정의되지 않음 (값이 변수에 들어가지 않음) 
+
+List<String> list1 = null;
+
+if(list1.isEmpty()){} 올바른 코드 아님 -> 참조하는 객체가 없음
+     -> NullpointerException 발생
+
+------------------------------------------------------------------------
+
+List<String> list2 = new ArrayList<String>();
+
+if(list2 == null){} // 실행 X
+if(list2. is Empty()){} // 실행 O
+
+Iterator -> 객체에 있는 값을 하나씩(파이프로) 꺼내옴
