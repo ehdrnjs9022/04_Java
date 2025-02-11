@@ -70,9 +70,12 @@ public class ThrowsTest {
 		
 		int num = 3/0; // ArithmeticException 발생
 		// 컴파일 에러 발생 X -> 예외처리가 강제되지 않음
-		
 	}
 
 
+	
+	
+	
+	
 
 }
