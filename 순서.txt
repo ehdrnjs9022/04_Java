@@ -1,0 +1,5 @@
+run -> view -> serviceIml -> DAOImpl   member는 가져다쓸수있음
+return DAOImpl -> serviceIml ->view ->run
+dao.
+다오에 넘겨줄게
+service. 서비스에서가져온다
