@@ -3,3 +3,60 @@ return DAOImpl -> serviceIml ->view ->run
 dao.
 다오에 넘겨줄게
 service. 서비스에서가져온다
+➡ service.는 데이터를 받아서 가공하는 역할
+➡ dao.는 데이터베이스(DB)에서 데이터를 가져오거나 저장하는 역할
+
+상속자(Parent)클래스
+getter/stetter
+getName()은 "값을 가져오는 역할" (외부에서 호출당함)
+setName()은 "값을 설정하는 역할"
+setName("새로운값") , setName(name)
+
+getter가 정상적으로 값을 가져오려면 객체 내부에 값이 존재해야 한다.
+즉, getter를 사용하려면 반드시 setter를 써야 하는 것은 아니다!
+
+public string toString(){
+	return String.format(         );
+}
+
+매개변수는 생성자에서 정한 값을 매개변수에 전달하고
+this.변수 (인스턴스 변수) 에 전달한다
+
+메소드 오버로딩 : 같은 메소드명을 여러번 정의가능 ( 매개변수는 달라야함)
+-> 매개변수가 달라야 같은 메소드명으로 사용가능(같은클래스내에서)
+public static int add(int a, int b){}
+public static int add(int a, int b, int c){}
+public static int add(double a, double b){}
+
+static = 클래스변수
+private name; 인스턴스변수 ( 메서드안에 값이 정해진 변수)
+매개변수(파라미터) = 지역변수
+
+매개변수 있는 생성자 -> 객체에 값을 넣어줘야함 new 객체 (값);
+
+import 패키지끼리 연결
+
+ArrayList : 배열 기반 리스트, 빠른접근 + 순차저장
+LinkedList : 연결리스트, 데이터의 빠른 삽입 + 삭제
+
+
+hashset :  순서, 중복을 허용하지 않는 데이터 집합
+
+HashMap : (Key, Value) 자료구조, 중복X 순서X
+lterator : 컬렉션의 모든 데이터 순회(반복자)
+
+
+다형성 : 부모클래스로 참조할수있다(상속중에)
+Person Person = new Person();
+Person Student = new Student();
+Person.intrduce();
+student.intedouce();
+-> 객체는 다르지만 부모클래스인 Person으로 참조 가능
+
+
+
+
+
+
+
+

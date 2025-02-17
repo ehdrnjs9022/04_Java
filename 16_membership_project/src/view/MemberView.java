@@ -28,7 +28,6 @@ public class MemberView {
 		try {
 			// 객체 생성 중 발생한 예외를 View에 모아서 처리
 			service = new MemberServiceImpl();
-			
 
 			// 키보드를 입력 받기 위한 스트림 생성
 			sc = new Scanner(new InputStreamReader(System.in, "UTF-8"));
