@@ -5,79 +5,101 @@ public class HomeDTO {
 		private String studentNumber;
 		private String name;
 		private char gender;
+		
 		private int html;
 		private int css;
 		private int js;
 		private int java;
+		private int db;
+		private int jdbc;
 		
-		public HomeDTO(String studentNumber, String name, char gender) {
-			this.studentNumber = studentNumber;
-			this.name = name;
-			this.gender = gender;
+		public void HomeDto(String studnetNumber,String name,char gender) {
+				this.studentNumber = studnetNumber;
+				this.name = name;
+				this.gender = gender;
 		}
 		
-		public String getStudnetNumber() {
+		public String getStudentNumber() {
 			return studentNumber;
 		}
-		public void setStudentNumber(String studentNumber) {
-			this.studentNumber=studentNumber;
+		public void setStudnetNumber(String studentNumber) {
+			this.studentNumber = studentNumber;
 		}
-
+		
 		public String getName() {
 			return name;
 		}
-
 		public void setName(String name) {
 			this.name = name;
 		}
-
+		
 		public char getGender() {
 			return gender;
 		}
-
 		public void setGender(char gender) {
 			this.gender = gender;
 		}
-
+		
 		public int getHtml() {
 			return html;
 		}
-
 		public void setHtml(int html) {
 			this.html = html;
 		}
-
+		
 		public int getCss() {
 			return css;
 		}
-
 		public void setCss(int css) {
 			this.css = css;
-		}
-
-		public int getJs() {
-			return js;
-		}
-
-		public void setJs(int js) {
-			this.js = js;
 		}
 
 		public int getJava() {
 			return java;
 		}
-
 		public void setJava(int java) {
 			this.java = java;
 		}
 		
+		public int getJs() {
+			return js;
+		}
+		public void setJs(int js) {
+			this.js = js;
+		}
+		public int getDb() {
+			return db;
+		}
+		public int getJdbc() {
+			return jdbc;
+		}
+		public void setDb(int db) {
+			this.db = db;
+		}
+		public void setJdbc(int jdbc) {
+			this.jdbc = jdbc;
+		}
+		
+		
 		public String toString() {
+			// [학번] 이름(성별)
+			// HTML : 100 / ...
 			return 
-					String.format("[%s]  %s(%c) \n "
-							+ "HTML : %d / CSS : %d / JS : %d / Java : %d",
-							studentNumber,name,gender,html,css,js,java);
+				String.format("[%s] %s(%) \n"
+						+ "HTML : %d / CSS : %d / JS : %d / JAVA : %d / DB : %s / JDBC : %d	",
+						html,css,js,java,db,jdbc);	
+			
 		}
 		
 		
 		
+
+
+
+
+
+
+
+
+
 }
